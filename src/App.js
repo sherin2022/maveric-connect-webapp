@@ -4,15 +4,16 @@ import Header from './components/Header'
 import Footer from './components/Footer';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-     {/* <Footer /> */}
-     <Header /> 
-      {/* <LoginPage /> */}
-     {/*<SignupPage />*/}
-    </div>
+    <div>
+    <Header />
+    {/*<LoginPage />*/}
+     <SignupPage /> 
+     <Footer />
+    </div>    
   );
 }
 

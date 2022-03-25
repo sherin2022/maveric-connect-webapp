@@ -1,25 +1,30 @@
- {/* import React from 'react';
-import { MDBFooter } from 'mdb-react-ui-kit';
-import FooterLogo from '../../images/maveric-logo-white.png'
-  export default function Footer(){
-    const headerStyle =   {
-        backgroundColor: 'rgba(33, 78, 143, 1)',
+import React from "react";
+import "./style.css";
+import images from "../../images/maveric-logo-white.png";
 
-    }
-    return(
-        
-   <MDBFooter bgColor='light' className='text-center text-lg-left'>
-      <div className='text-center p-3' style={headerStyle}>
-        <img src = {FooterLogo}  alt= "Footer Image"></img>
-        <div style={{color:'white'}}>      
-        &copy; {new Date().getFullYear()} Copyright:{' '} 
-        Maveric Systems Limited
+const Footer = () => {
+  return (
+    <footer className="footer">
+        <div className="mt-2">
+          <div className="ml-2">
+          <ul class="nav justify-content-center">
+
+         {/*} <li className="nav-item">
+            <img src={images} className="img-thumbnail" />
+          </li> */}
+
+              <li className="nav-item">
+              <a className="nav-link disabled" href="#">
+              <h6 className="text-center" style={{ color: "white" }}>@Copyright, Maveric Systems Ltd 2022</h6>
+                </a>
+              </li>
+              </ul>
+            
+          </div>
         </div>
-      </div>
-    </MDBFooter>
-   
-    )
-   
-    
-}
- */}
+     
+    </footer>
+  );
+};
+
+export default Footer;
