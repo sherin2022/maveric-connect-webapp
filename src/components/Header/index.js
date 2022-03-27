@@ -8,7 +8,7 @@ export default function Header(){
     return(
         <Navbar bg="light" variant="dark"  className='text-center text-lg-center' >
         <Container>
-          <Navbar.Brand href="#home" className='text-center' color='black'>
+          <Navbar.Brand href="#home" className='text-center'>
             <img
               alt=""
               src={HeaderLogo}
@@ -16,7 +16,7 @@ export default function Header(){
               max-height = "100%"
               className="d-inline-block align-top"
             />
-          <h4 style={{color:"black"}}>Maveric Connect</h4>
+          Maveric Connect
           </Navbar.Brand>
         </Container>
       </Navbar>
