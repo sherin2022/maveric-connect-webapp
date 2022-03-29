@@ -6,6 +6,10 @@ import FooterLogo from '../../images/maveric-logo-white.png'
 export default function Footer(){
     const headerStyle =   {
         backgroundColor: 'rgba(33, 78, 143, 1)',
+        position: "fixed",
+          left: 0,
+          bottom: 0,
+          right: 0,
 
     }
     return(
